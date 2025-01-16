@@ -59,7 +59,6 @@ plt.show()
 
 #### Bar Plot
 
-```python
 import seaborn as sns
 import matplotlib.pyplot as plt
 
