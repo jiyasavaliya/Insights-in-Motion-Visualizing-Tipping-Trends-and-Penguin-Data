@@ -1,67 +1,67 @@
-# Insights in Motion: Visualizing Tipping Trends and Penguin Data
-
+Insights in Motion: Visualizing Tipping Trends and Penguin Data
 This repository contains Jupyter Notebooks and datasets for visualizing tipping trends and penguin data using Seaborn and Matplotlib.
+Project Overview
+The project analyzes two main datasets:
 
-## Project Overview
+Tipping Trends Analysis: Explores patterns in restaurant tipping behavior using various visualizations
+Penguin Data Analysis: Examines physical characteristics and distribution of different penguin species
 
-The project is divided into two main parts:
+Datasets
+Tips Dataset (tips.csv)
 
-1. **Tipping Trends Analysis**:
-   - Dataset: `tips.csv`
-   - Visualizations: Line plots, bar plots, histograms, etc.
+total_bill: Total bill amount
+tip: Tip amount
+sex: Gender of the person paying the bill
+smoker: Whether the person is a smoker or not
+day: Day of the week
+time: Time of day (Lunch/Dinner)
+size: Size of the party
 
-2. **Penguin Data Analysis**:
-   - Dataset: `penguins.csv`
-   - Visualizations: Line plots, bar plots, histograms, etc.
+Penguins Dataset (penguins.csv)
 
-## Datasets
+species: Species of the penguin
+island: Island where the penguin was observed
+bill_length_mm: Length of the penguin's bill in millimeters
+bill_depth_mm: Depth of the penguin's bill in millimeters
+flipper_length_mm: Length of the penguin's flipper in millimeters
+body_mass_g: Body mass of the penguin in grams
+sex: Sex of the penguin
 
-### Tips Dataset (`tips.csv`)
-
-The tips dataset contains information about tips received by waitstaff at a restaurant. The columns in the dataset include:
-- `total_bill`: The total bill amount.
-- `tip`: The tip amount.
-- `sex`: The gender of the person paying the bill.
-- `smoker`: Whether the person is a smoker or not.
-- `day`: The day of the week.
-- `time`: The time of day (Lunch/Dinner).
-- `size`: The size of the party.
-
-### Penguins Dataset (`penguins.csv`)
-
-The penguins dataset contains information about different species of penguins. The columns in the dataset include:
-- `species`: The species of the penguin.
-- `island`: The island where the penguin was observed.
-- `bill_length_mm`: The length of the penguin's bill in millimeters.
-- `bill_depth_mm`: The depth of the penguin's bill in millimeters.
-- `flipper_length_mm`: The length of the penguin's flipper in millimeters.
-- `body_mass_g`: The body mass of the penguin in grams.
-- `sex`: The sex of the penguin.
-
-## Visualizations
-
-### Tipping Trends
-
-#### Line Plot
-
-```python
+Example Visualizations
+pythonCopy# Line Plot Example
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
 x = [1, 2, 3, 4, 5, 6, 7]
 y = [20, 40, 30, 40, 30, 50, 30]
-
 df = pd.DataFrame({"Days": x, "No of people": y})
 sns.lineplot(x="Days", y="No of people", data=df)
 plt.show()
 
-
-##Bar Plot
-
-import seaborn as sns
-import matplotlib.pyplot as plt
-
+# Bar Plot Example
 z = sns.load_dataset("penguins").head(51)
 sns.barplot(x="island", y="bill_length_mm", data=z, color="r")
 plt.show()
+
+# Histogram Example
+sns.displot(z["flipper_length_mm"], 
+           bins=[170, 180, 190, 200, 210, 220, 230, 240], 
+           kde=True, 
+           rug=True, 
+           color="r")
+plt.show()
+Getting Started
+
+Clone the repository:
+bashCopygit clone https://github.com/jiyasavaliya/Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data.git
+
+Navigate to the project directory:
+bashCopycd Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data
+
+Open and run the Jupyter Notebook:
+bashCopyjupyter notebook
+
+
+License
+This project is licensed under the MIT License.
