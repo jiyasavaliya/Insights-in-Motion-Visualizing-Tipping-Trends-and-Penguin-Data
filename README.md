@@ -1,34 +1,38 @@
-Insights in Motion: Visualizing Tipping Trends and Penguin Data
+# Insights in Motion: Visualizing Tipping Trends and Penguin Data
+
 This repository contains Jupyter Notebooks and datasets for visualizing tipping trends and penguin data using Seaborn and Matplotlib.
-Project Overview
+
+## Project Overview
+
 The project analyzes two main datasets:
 
-Tipping Trends Analysis: Explores patterns in restaurant tipping behavior using various visualizations
-Penguin Data Analysis: Examines physical characteristics and distribution of different penguin species
+1. **Tipping Trends Analysis**: Explores patterns in restaurant tipping behavior using various visualizations
+2. **Penguin Data Analysis**: Examines physical characteristics and distribution of different penguin species
 
-Datasets
-Tips Dataset (tips.csv)
+## Datasets
 
-total_bill: Total bill amount
-tip: Tip amount
-sex: Gender of the person paying the bill
-smoker: Whether the person is a smoker or not
-day: Day of the week
-time: Time of day (Lunch/Dinner)
-size: Size of the party
+### Tips Dataset (`tips.csv`)
+- `total_bill`: Total bill amount
+- `tip`: Tip amount
+- `sex`: Gender of the person paying the bill
+- `smoker`: Whether the person is a smoker or not
+- `day`: Day of the week
+- `time`: Time of day (Lunch/Dinner)
+- `size`: Size of the party
 
-Penguins Dataset (penguins.csv)
+### Penguins Dataset (`penguins.csv`)
+- `species`: Species of the penguin
+- `island`: Island where the penguin was observed
+- `bill_length_mm`: Length of the penguin's bill in millimeters
+- `bill_depth_mm`: Depth of the penguin's bill in millimeters
+- `flipper_length_mm`: Length of the penguin's flipper in millimeters
+- `body_mass_g`: Body mass of the penguin in grams
+- `sex`: Sex of the penguin
 
-species: Species of the penguin
-island: Island where the penguin was observed
-bill_length_mm: Length of the penguin's bill in millimeters
-bill_depth_mm: Depth of the penguin's bill in millimeters
-flipper_length_mm: Length of the penguin's flipper in millimeters
-body_mass_g: Body mass of the penguin in grams
-sex: Sex of the penguin
+## Example Visualizations
 
-Example Visualizations
-pythonCopy# Line Plot Example
+```python
+# Line Plot Example
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -51,17 +55,25 @@ sns.displot(z["flipper_length_mm"],
            rug=True, 
            color="r")
 plt.show()
-Getting Started
+```
 
-Clone the repository:
-bashCopygit clone https://github.com/jiyasavaliya/Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data.git
+## Getting Started
 
-Navigate to the project directory:
-bashCopycd Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jiyasavaliya/Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data.git
+   ```
 
-Open and run the Jupyter Notebook:
-bashCopyjupyter notebook
+2. Navigate to the project directory:
+   ```bash
+   cd Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data
+   ```
 
+3. Open and run the Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
 
-License
+## License
+
 This project is licensed under the MIT License.
