@@ -32,62 +32,34 @@ The project analyzes two main datasets:
 ## Example Visualizations
 
 ```python
-# 1. Line Plot Example
+# Line Plot Example
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Create sample data
 x = [1, 2, 3, 4, 5, 6, 7]
 y = [20, 40, 30, 40, 30, 50, 30]
-
-# Create DataFrame
 df = pd.DataFrame({"Days": x, "No of people": y})
-
-# Create line plot
-plt.figure(figsize=(8, 5))
 sns.lineplot(x="Days", y="No of people", data=df)
-plt.title("Daily Visitor Trends")
-plt.xlabel("Days of Week")
-plt.ylabel("Number of People")
 plt.show()
+```
 
-# 2. Bar Plot Example
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-# Load and prepare data
+```python
+# Bar Plot Example
 z = sns.load_dataset("penguins").head(51)
-
-# Create bar plot
-plt.figure(figsize=(8, 5))
 sns.barplot(x="island", y="bill_length_mm", data=z, color="r")
-plt.title("Average Bill Length by Island")
-plt.xlabel("Island")
-plt.ylabel("Bill Length (mm)")
 plt.show()
+```
 
-# 3. Histogram Example
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-# Load and prepare data
-z = sns.load_dataset("penguins").head(51)
-
-# Create histogram
-plt.figure(figsize=(8, 5))
-sns.displot(
-    data=z,
-    x="flipper_length_mm",
-    bins=[170, 180, 190, 200, 210, 220, 230, 240],
-    kde=True,
-    rug=True,
-    color="r"
-)
-plt.title("Distribution of Flipper Lengths")
-plt.xlabel("Flipper Length (mm)")
-plt.ylabel("Count")
-plt.show()```
+```python
+# Histogram Example
+sns.displot(z["flipper_length_mm"], 
+           bins=[170, 180, 190, 200, 210, 220, 230, 240], 
+           kde=True, 
+           rug=True, 
+           color="r")
+plt.show()
+```
 
 ## Getting Started
 
