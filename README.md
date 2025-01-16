@@ -57,7 +57,7 @@ sns.lineplot(x="Days", y="No of people", data=df)
 plt.show()
 
 
-#### Bar Plot
+##Bar Plot
 
 import seaborn as sns
 import matplotlib.pyplot as plt
