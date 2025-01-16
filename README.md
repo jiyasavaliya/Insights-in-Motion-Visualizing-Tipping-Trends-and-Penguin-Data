@@ -55,3 +55,14 @@ y = [20, 40, 30, 40, 30, 50, 30]
 df = pd.DataFrame({"Days": x, "No of people": y})
 sns.lineplot(x="Days", y="No of people", data=df)
 plt.show()
+
+
+#### Bar Plot
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+z = sns.load_dataset("penguins").head(51)
+sns.barplot(x="island", y="bill_length_mm", data=z, color="r")
+plt.show()
