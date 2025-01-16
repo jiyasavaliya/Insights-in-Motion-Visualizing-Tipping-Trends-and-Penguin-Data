@@ -31,8 +31,9 @@ The project analyzes two main datasets:
 
 ## Example Visualizations
 
-```python
 # Line Plot Example
+
+```python
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -44,15 +45,17 @@ sns.lineplot(x="Days", y="No of people", data=df)
 plt.show()
 ```
 
-```python
 # Bar Plot Example
+
+```python
 z = sns.load_dataset("penguins").head(51)
 sns.barplot(x="island", y="bill_length_mm", data=z, color="r")
 plt.show()
 ```
 
-```python
 # Histogram Example
+
+```python
 sns.displot(z["flipper_length_mm"], 
            bins=[170, 180, 190, 200, 210, 220, 230, 240], 
            kde=True, 
