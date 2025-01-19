@@ -87,6 +87,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License. See the [MIT License](LICENSE) file for more information.
 
 Developed by Jiya Savaliya
+<br>
 If you have any questions, feel free to reach out!
 ```bash
 Replace the placeholder GitHub repository link in the `git clone` section with your actual repository URL. Let me know if you’d like any additional customization!
