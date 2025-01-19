@@ -1,5 +1,5 @@
 
-# TradeHub Data Insights
+#  Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data 
 
 **Project Overview**  
 TradeHub Data Insights is a data analysis project designed to extract meaningful insights from diverse datasets. This repository includes visualizations, analytical scripts, and datasets to showcase advanced data science techniques.
