@@ -55,13 +55,13 @@ To run this project, ensure you have the following installed:
 1. **Clone the repository**:
    
  ```bash
-git clone https://github.com/your-username/tradehub-data-insights.git
+git clone https://github.com/jiyasavaliya/Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data .git
  ```
 
 2. **Navigate to the project directory**:
 
  ```bash
-cd tradehub-data-insights
+cd Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data 
 ```
 
 3. **Open the Jupyter Notebook**:
