@@ -87,7 +87,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License. See the [MIT License](LICENSE) file for more information.
 
 <br>
-
+<br>
 **Developed by Jiya Savaliya**
 <br>
 **If you have any questions, feel free to reach out!**
