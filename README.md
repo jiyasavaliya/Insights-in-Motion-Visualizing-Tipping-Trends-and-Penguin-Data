@@ -38,3 +38,13 @@ To run this project, ensure you have the following installed:
   pandas
   matplotlib
   jupyter
+
+<br>
+
+### Install dependencies using:
+
+
+ ```bash
+ pip install -r requirements.txt
+ ```
+
