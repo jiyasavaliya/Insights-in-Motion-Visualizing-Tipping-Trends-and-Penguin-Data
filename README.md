@@ -41,10 +41,35 @@ To run this project, ensure you have the following installed:
 
 <br>
 
-### Install dependencies using:
+## Install dependencies using:
 
 
  ```bash
  pip install -r requirements.txt
  ```
 
+### Usage
+
+<br>
+
+1. **Clone the repository**:
+   
+ ```bash
+git clone https://github.com/your-username/tradehub-data-insights.git
+ ```
+
+2. **Navigate to the project directory**:
+
+ ```bash
+cd tradehub-data-insights
+```
+
+3. **Open the Jupyter Notebook**:
+
+```bash
+jupyter notebook
+```
+
+4. **Explore the Seaborn.ipynb file to analyze the datasets**.
+
+   
