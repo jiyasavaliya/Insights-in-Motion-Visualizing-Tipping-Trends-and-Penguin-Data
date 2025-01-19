@@ -73,3 +73,12 @@ jupyter notebook
 4. **Explore the Seaborn.ipynb file to analyze the datasets**.
 
    
+## Datasets
+
+penguins.csv: A dataset containing measurements of penguins for species analysis.
+tips.csv: A dataset containing information on restaurant tips for statistical insights.
+
+## Contributions
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or features you'd like to add.
+
