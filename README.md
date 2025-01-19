@@ -88,7 +88,6 @@ This project is licensed under the MIT License. See the [MIT License](LICENSE) f
 
 Developed by Jiya Savaliya
 If you have any questions, feel free to reach out!
-
 ```bash
 Replace the placeholder GitHub repository link in the `git clone` section with your actual repository URL. Let me know if you’d like any additional customization!
 bash
