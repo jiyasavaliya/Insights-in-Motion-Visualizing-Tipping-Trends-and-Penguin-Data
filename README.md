@@ -75,8 +75,8 @@ jupyter notebook
    
 ## Datasets
 
-penguins.csv: A dataset containing measurements of penguins for species analysis.
-tips.csv: A dataset containing information on restaurant tips for statistical insights.
+- penguins.csv: A dataset containing measurements of penguins for species analysis.
+- tips.csv: A dataset containing information on restaurant tips for statistical insights.
 
 ## Contributions
 
