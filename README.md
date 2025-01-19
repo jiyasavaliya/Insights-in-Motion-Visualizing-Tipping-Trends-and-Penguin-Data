@@ -41,8 +41,6 @@ To run this project, ensure you have the following installed:
   matplotlib
   jupyter
 
-
-
 ## Install dependencies using:
 
 
