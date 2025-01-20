@@ -73,7 +73,7 @@ jupyter notebook
 4. **Explore the Seaborn.ipynb file to analyze the datasets**.
    <br>
    <br>
-     For detailed information on Seaborn, refer to the [Seaborn Pdf.pdf](Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data
+   For detailed information on Seaborn, refer to the [Seaborn Pdf.pdf](Insights-in-Motion-Visualizing-Tipping-Trends-and-Penguin-Data
 /Seaborn Pdf.pdf).
 
 
