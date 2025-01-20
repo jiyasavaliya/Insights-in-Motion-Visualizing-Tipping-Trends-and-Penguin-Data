@@ -84,7 +84,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## License
 
-This project is licensed under the MIT License. See the [MIT License](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [BSD 3-Clause License](LICENSE) file for more information.
 
 <br>
 <br>
