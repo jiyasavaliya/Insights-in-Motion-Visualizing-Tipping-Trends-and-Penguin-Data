@@ -71,6 +71,7 @@ jupyter notebook
 ```
 
 4. **Explore the Seaborn.ipynb file to analyze the datasets**.
+   <br>
    **For detailed information on Seaborn, refer to the Seaborn Documentation PDF**.
 
 
